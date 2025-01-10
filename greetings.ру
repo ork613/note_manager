@@ -1,13 +1,13 @@
-user_name = "имя пользователя"
+user_name = input("имя пользователя")
 print("имя пользователя:", user_name)
-title = "заголовок заметки"
-print("заголовок заметки:", title)
-content = "описание заметки"
-print("описание заметки:", content)
-status = "статус заметки"
+title = input("заголовок заметки")
+print("заголовок заметки", title)
+content = input("описание заметки")
+print("описание заметки", content)
+status = input("статус заметки")
 print("статус заметки:", status)
-created_date = "день-месяц-год"
+created_date = input("день-месяц-год")
 print("день-месяц-год:", created_date)
-issue_date = "день-месяц-год"
+issue_date = input("день-месяц-год")
 print("день-месяц-год:", issue_date)
 is_active = True
